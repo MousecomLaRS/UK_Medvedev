@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="f8ca1883-e1eb-4c1f-8261-dd610d9344f0">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусОплатыСчета" category="Ref">
+				<xr:TypeId>6f0b374a-fd1c-4f1f-b88f-968df872132c</xr:TypeId>
+				<xr:ValueId>43a94dc1-f960-4c16-b70c-494e34769072</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусОплатыСчета" category="Manager">
+				<xr:TypeId>1f35a7c5-4582-4355-9ece-a30749278484</xr:TypeId>
+				<xr:ValueId>0d7eb099-ddec-4d95-9537-0c30b90b067d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусОплатыСчета" category="List">
+				<xr:TypeId>97e17f01-2d20-49dc-a6fb-72a7e8d8724d</xr:TypeId>
+				<xr:ValueId>a9aa0f5a-8d4e-4aba-8d29-728d74e5bcaa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусОплатыСчета</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1499f9b0-b1d7-4e3c-8d33-9137004542d8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="110185e6-183b-4551-b8fe-bf4d75da0e91">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеОплачен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>20cf82a8-4c93-4b8c-9fd5-c4d9c70c6c18</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5a0e8ae3-c3e7-489c-b66a-0f04fcc58749">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Оплачен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>74ec58f0-42e0-4c6c-a511-b13d534e9e02</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="321ec317-2eff-48f1-8be7-fc13e5ba55f2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОплаченЧастично</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9950b04e-60a9-4511-836c-b81d2da45a18</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

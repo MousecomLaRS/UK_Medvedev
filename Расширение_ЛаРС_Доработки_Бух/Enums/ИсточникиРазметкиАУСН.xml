@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="47205c69-9eb6-4a0a-a621-af55f86d982d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ИсточникиРазметкиАУСН" category="Ref">
+				<xr:TypeId>a98d16df-4fbb-484c-99c8-df9da9cf4f06</xr:TypeId>
+				<xr:ValueId>5627428d-b5dc-4570-8390-84f17b847e7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ИсточникиРазметкиАУСН" category="Manager">
+				<xr:TypeId>5c69eb96-bfc5-468c-8b7e-5bc250b90cbd</xr:TypeId>
+				<xr:ValueId>2697ff62-f942-42f7-95fb-b21c8ed81f4a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ИсточникиРазметкиАУСН" category="List">
+				<xr:TypeId>8c897bf5-c2fd-4508-8887-0c10627122bc</xr:TypeId>
+				<xr:ValueId>eb36ad6e-0ed5-4383-ada8-13928aa984f6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсточникиРазметкиАУСН</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74237c8e-d9f1-4e8c-9722-c42d878d2ecd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>
