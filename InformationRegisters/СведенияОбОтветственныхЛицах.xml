@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c8d503cd-acce-4ecf-a087-31d2b1393b6d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СведенияОбОтветственныхЛицах" category="Record">
+				<xr:TypeId>0523307e-095d-48bb-bfbd-2268180b60e3</xr:TypeId>
+				<xr:ValueId>16e971de-5cf5-42d6-a440-8e3255d00564</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СведенияОбОтветственныхЛицах" category="Manager">
+				<xr:TypeId>2c6bcb3d-8f0e-43be-9795-59ff31f6e5e0</xr:TypeId>
+				<xr:ValueId>874361f5-522e-4937-b859-231d55c375c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СведенияОбОтветственныхЛицах" category="Selection">
+				<xr:TypeId>5b90c126-9172-4927-a3ff-130b3c933aba</xr:TypeId>
+				<xr:ValueId>bdfabb42-f880-4e80-b9dc-2526f25d5ee7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СведенияОбОтветственныхЛицах" category="List">
+				<xr:TypeId>d4a12170-46db-4df5-a0ac-b88c99b56e5b</xr:TypeId>
+				<xr:ValueId>8d283f7b-ffd0-405e-85ad-08ccd2cc1e2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СведенияОбОтветственныхЛицах" category="RecordSet">
+				<xr:TypeId>9230bb3c-9ccb-4e93-b569-608d24cdda29</xr:TypeId>
+				<xr:ValueId>0c9fe083-7568-4875-bb85-8b486600ff5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СведенияОбОтветственныхЛицах" category="RecordKey">
+				<xr:TypeId>24932196-c24d-4984-9d21-ef4cf39a1f56</xr:TypeId>
+				<xr:ValueId>fcc9feb2-0827-4479-b53e-d682d70d2bda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СведенияОбОтветственныхЛицах" category="RecordManager">
+				<xr:TypeId>558378da-f1a8-4ec3-aaf2-315b54e7527b</xr:TypeId>
+				<xr:ValueId>f001c3c5-06a2-4dde-98e8-fb1c5e962287</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СведенияОбОтветственныхЛицах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>28a67fa9-9226-425a-b139-f2f895d2e6ac</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ec4904ac-2093-4042-b6b4-755b0f734293">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руководитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a68fbe2-1a20-4218-a340-c6e7b0c0142d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3e45704b-2e5f-4bb5-b3b1-cb81b1813843">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГлавныйБухгалтер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0ea6feed-fe1d-4ca7-9099-4714696900fe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="3e1ec0b2-7b2c-43be-97eb-2d4fd5be9951">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>82e9c022-d5a7-4f31-8f7b-df8612178029</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

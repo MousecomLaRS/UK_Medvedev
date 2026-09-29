@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c161d060-8d46-412c-9af9-1b7327c10b6f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НазначениеПлановогоНачисления" category="Object">
+				<xr:TypeId>e4a8630a-b121-4331-812d-b503c814da24</xr:TypeId>
+				<xr:ValueId>e6c9e5df-ae5b-4039-ae27-db1e1ac1b9c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НазначениеПлановогоНачисления" category="Ref">
+				<xr:TypeId>d2e28007-400a-4c14-96b3-d7e33ecd4e95</xr:TypeId>
+				<xr:ValueId>cc266d65-f947-4464-ad61-91e10f540f86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НазначениеПлановогоНачисления" category="Selection">
+				<xr:TypeId>5c8e4df6-860f-4bc2-bacf-a1f57b05dd8f</xr:TypeId>
+				<xr:ValueId>6d0f5470-96b0-4b15-906e-d67b5dd8ec80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НазначениеПлановогоНачисления" category="List">
+				<xr:TypeId>b468d163-9e5c-48bf-afd4-417287d6a8d6</xr:TypeId>
+				<xr:ValueId>7c4d6937-2acc-406b-b26a-3233c1435401</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НазначениеПлановогоНачисления" category="Manager">
+				<xr:TypeId>6d5c8ba2-743a-4cd2-95f9-ff79d4c4f62e</xr:TypeId>
+				<xr:ValueId>bc765071-bc80-43ee-8808-b434bb57f35c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НазначениеПлановогоНачисления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c7525081-b919-46a4-b8dd-517608966071</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8579d189-8147-470f-a552-ac6304f13f92">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Начисление</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c562f7ca-6d15-4a95-bde4-a26a27c55bcf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="a5c48eea-c135-41ef-83a9-542aa1c50365">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НазначениеПлановогоНачисления.Сотрудники" category="TabularSection">
+						<xr:TypeId>43748bfe-3631-46bc-b429-f6f34d0c96f0</xr:TypeId>
+						<xr:ValueId>e63b783e-9761-4072-99a1-9b89d4adc3a7</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НазначениеПлановогоНачисления.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>f1173545-36ac-432c-ba5a-baf83d1f5397</xr:TypeId>
+						<xr:ValueId>09ac35fd-8b5a-4558-9620-02f03206b243</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудники</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f1cb2bb4-67cb-4a5b-a3a3-1d19853cfe59</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="80327b44-d594-47d5-9d98-03cbc73d9289">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Сотрудник</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0abb8a76-9957-45fe-b2ff-2a4396bcb3de</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5ee5d68e-e3f7-43eb-a167-3705a7b4dab2">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаНазначения</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>c70724c7-d79f-4e6b-8c8e-73d6d2f57a79</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b523ffc4-0178-4ca0-bd94-7f7f22638289">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ВидТарифнойСтавки</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4db091f0-3b2a-4813-a862-fad6e9118c55</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:EnumRef.ВидыТарифныхСтавок</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ce73d2d9-112d-4075-9d76-37d5327b28b9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Размер</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7144591c-d771-4517-a59a-1b937834042b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c112fa25-2e8c-40f4-91a5-9a4300638c82">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СовокупнаяТарифнаяСтавка</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>6e5b060c-1cd0-4489-aad5-7e79685830d7</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ЗначениеПоказателяРасчетаЗарплаты</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ab368e51-da70-43d4-9d3d-189188040362">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаОкончания</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>66b41ea7-51e5-4e2b-acad-607f5952440e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cea51e1c-7792-4e7e-aafc-34fc75ba7e40">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИдентификаторСтрокиСотрудника</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>624da87f-37a2-4b5e-a184-328c5c101ce0</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>7</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8dbfd1b4-d825-4e9c-8010-eed191b08327">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>КоэффициентИндексации</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>208d31c3-8deb-4386-9ffd-1fc515fd9bc2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>12</v8:Digits>
+									<v8:FractionDigits>10</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Template>ПФ_MXL_ПриказОСтимулирующих</Template>
+			<Command uuid="0091c643-ab0b-4ad8-be81-8f6dab5e33e0">
+				<Properties>
+					<Name>ЛаРС_ПечатьПриказаОСтимулирующих</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать приказа о стимулирующих</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.НазначениеПлановогоНачисления</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

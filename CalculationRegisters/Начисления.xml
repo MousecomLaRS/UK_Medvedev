@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CalculationRegister uuid="3b91c953-f2dd-4c1b-8d53-38b1021e1f31">
+		<InternalInfo>
+			<xr:GeneratedType name="CalculationRegisterRecord.Начисления" category="Record">
+				<xr:TypeId>9177b33f-c063-428b-a096-9148510afb2e</xr:TypeId>
+				<xr:ValueId>65927d89-50be-4aaf-9a0b-d9898ad7ca5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterManager.Начисления" category="Manager">
+				<xr:TypeId>d0de6b1f-afcf-4b73-872a-d96d1a7bf5b0</xr:TypeId>
+				<xr:ValueId>eeb260fc-00ad-4864-b2a9-6180225733f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterSelection.Начисления" category="Selection">
+				<xr:TypeId>e4d4acf4-ce45-4c5f-8929-39d097d5398d</xr:TypeId>
+				<xr:ValueId>7097e3be-09f9-4166-9220-de0eba008309</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterList.Начисления" category="List">
+				<xr:TypeId>8fa3fb7e-29e5-4ca5-bc2c-2e612ecf57de</xr:TypeId>
+				<xr:ValueId>9a5e3785-c060-4877-b16b-e5c45cfbc8e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordSet.Начисления" category="RecordSet">
+				<xr:TypeId>712181c9-0365-4871-bce4-c1cac2db1fd4</xr:TypeId>
+				<xr:ValueId>997c450b-8d43-49c1-903c-b4fbfb5643e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordKey.Начисления" category="RecordKey">
+				<xr:TypeId>83f37561-43c7-4ba8-91ca-5f3bbee3b669</xr:TypeId>
+				<xr:ValueId>d8617c9c-0dde-45b7-ae3f-bec431ececb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="RecalculationsManager.Начисления" category="Recalcs">
+				<xr:TypeId>b3c6812d-29c5-438a-bb94-487f3ca154bd</xr:TypeId>
+				<xr:ValueId>3c7e2aa5-6222-4a0c-9a98-d659dab08b87</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Начисления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ca9501a5-a0d3-422e-afd3-8c8cfbbcbb01</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="d5d94873-f95c-47ed-9165-cc79cff856f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Результат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6c2fbcac-cf88-4e04-a495-efd5a438d9c0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="dc21b5f2-4aee-4468-85e8-99d77581d23e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>69a4b1f0-239f-43bb-9ba0-e52b55580e3b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="10d9e920-24ac-47b0-b6a6-53a83b3076d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10c33e23-b82b-4182-a7df-98d4fb22fffd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</CalculationRegister>
+</MetaDataObject>

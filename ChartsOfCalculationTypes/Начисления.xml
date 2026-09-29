@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCalculationTypes uuid="e7c4e7cc-1ee0-48d5-bfb4-c721fc10b148">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCalculationTypesObject.Начисления" category="Object">
+				<xr:TypeId>a6c7a3e9-147d-4a31-b0fc-beef8a35ee34</xr:TypeId>
+				<xr:ValueId>c941370b-97ba-4674-950f-a51ccfe9ca67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesRef.Начисления" category="Ref">
+				<xr:TypeId>a9ce46fc-3666-448b-a5f0-ba79026718c5</xr:TypeId>
+				<xr:ValueId>a153222d-c8c2-47c3-8c8c-2508efd313cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesSelection.Начисления" category="Selection">
+				<xr:TypeId>2355e08c-13e9-4804-9c55-8463a492e54b</xr:TypeId>
+				<xr:ValueId>0163c5f7-c8d6-4e4d-acaf-af19bc887405</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesList.Начисления" category="List">
+				<xr:TypeId>06cd392b-6f26-4d59-89b5-bef4be0f87ba</xr:TypeId>
+				<xr:ValueId>91bbace9-b397-40ee-aec5-43d07ba1df8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCalculationTypesManager.Начисления" category="Manager">
+				<xr:TypeId>c226d1a4-e3f3-4dcf-9c2f-77e3606b6f15</xr:TypeId>
+				<xr:ValueId>2f6029a3-d8c3-46e6-b1e2-6b94b29f2ad9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypes.Начисления" category="DisplacingCalculationTypes">
+				<xr:TypeId>a1960722-3779-4ee9-80b1-7be4d2c3efc4</xr:TypeId>
+				<xr:ValueId>80fde697-11ec-4fff-84e7-483060915ed2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DisplacingCalculationTypesRow.Начисления" category="DisplacingCalculationTypesRow">
+				<xr:TypeId>1c8d89e2-646f-4d02-84ff-fbfa9f2624e5</xr:TypeId>
+				<xr:ValueId>64f7d8f3-a7ef-4834-ab79-d552a2fef0be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypes.Начисления" category="BaseCalculationTypes">
+				<xr:TypeId>659095f4-9d16-4d1f-8d15-0e75b9c614c3</xr:TypeId>
+				<xr:ValueId>b71694a3-93a9-46ee-8c7b-2a5220fb0fdc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BaseCalculationTypesRow.Начисления" category="BaseCalculationTypesRow">
+				<xr:TypeId>073b6f44-7ef0-4345-9051-995de2f847cb</xr:TypeId>
+				<xr:ValueId>475fee22-2404-4a7f-973d-7e829d50b967</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypes.Начисления" category="LeadingCalculationTypes">
+				<xr:TypeId>0e724e2b-ef81-4386-90f5-313f5823a143</xr:TypeId>
+				<xr:ValueId>16a99502-14d6-4840-9f6a-7fb7e56e38b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="LeadingCalculationTypesRow.Начисления" category="LeadingCalculationTypesRow">
+				<xr:TypeId>efb62078-1bde-4367-86c5-e8c2ca1fc5c1</xr:TypeId>
+				<xr:ValueId>2551db2e-ec75-4ea0-aed6-2cdd81041670</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Начисления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>be08c831-b5a8-4e28-b13c-26875635a7f1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCalculationTypes>
+</MetaDataObject>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="a5dfd430-652f-4ea5-b462-64478ee20272">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ОтражениеВБухучетеНачисленныйНДФЛ" category="Record">
+				<xr:TypeId>6203f2af-23d2-4b7d-b836-74bafdeb2ddf</xr:TypeId>
+				<xr:ValueId>489a7702-2fef-40ef-ac97-90e113eda951</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ОтражениеВБухучетеНачисленныйНДФЛ" category="Manager">
+				<xr:TypeId>86c4f2cc-4fe4-479e-bf1b-c96eacbb7910</xr:TypeId>
+				<xr:ValueId>2f75ba17-6fe1-4033-9acd-e0ccfebd36f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ОтражениеВБухучетеНачисленныйНДФЛ" category="Selection">
+				<xr:TypeId>cfb3fde3-4624-461c-a47f-170cae9f2eb0</xr:TypeId>
+				<xr:ValueId>da41cf65-c722-4416-ac5b-e9b4115622b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ОтражениеВБухучетеНачисленныйНДФЛ" category="List">
+				<xr:TypeId>86758f00-d53b-4968-833b-f389e49481e6</xr:TypeId>
+				<xr:ValueId>94986d17-1874-4024-8443-3d809b520473</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОтражениеВБухучетеНачисленныйНДФЛ" category="RecordSet">
+				<xr:TypeId>878ef098-5129-41ef-8eda-a580bd6c9955</xr:TypeId>
+				<xr:ValueId>445ef2a7-e74c-4bac-b057-91693a905c59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОтражениеВБухучетеНачисленныйНДФЛ" category="RecordKey">
+				<xr:TypeId>90ff8e21-f59c-45ad-8d04-4cef3e113803</xr:TypeId>
+				<xr:ValueId>2f8c6ad0-fa47-4b03-8325-a2293baf1d68</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтражениеВБухучетеНачисленныйНДФЛ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c14aaaa6-e599-4a1d-a726-703c6fe551a2</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="dcf45d6c-3e5f-4c28-bf36-b81bb83fc977">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70c39d03-dad9-4870-b9fe-6012c76b7357</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ffaa0021-3745-496b-ab2e-80794afdbfaf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>83c52772-b2c3-4b7a-9676-871b31faf6ad</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

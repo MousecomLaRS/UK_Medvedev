@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="2c9052c6-e229-407d-9ed7-82cfbc05bc4a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыТарифныхСтавок" category="Ref">
+				<xr:TypeId>c3ab0fc4-f55a-486c-be43-456e4c3e6624</xr:TypeId>
+				<xr:ValueId>6ab5bb8c-2015-47db-b8a3-0be9d53b9ad9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыТарифныхСтавок" category="Manager">
+				<xr:TypeId>41afe59a-0a2e-4c1f-ab8d-2fe82f0cbffc</xr:TypeId>
+				<xr:ValueId>df901529-a9e1-47cc-b447-604273807926</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыТарифныхСтавок" category="List">
+				<xr:TypeId>5fd75bb5-08a9-4ff7-a5ce-b9d4349ab98d</xr:TypeId>
+				<xr:ValueId>26fa90bd-283d-4482-866d-4abea10bc27b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыТарифныхСтавок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>17228a49-ce45-48d8-95e6-efbaa0d3dcc2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

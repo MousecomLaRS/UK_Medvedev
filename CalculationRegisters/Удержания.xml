@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CalculationRegister uuid="860c70d7-96d8-4357-b571-f337c80a447a">
+		<InternalInfo>
+			<xr:GeneratedType name="CalculationRegisterRecord.Удержания" category="Record">
+				<xr:TypeId>4a404117-b010-4c8f-a381-ca012090e2b7</xr:TypeId>
+				<xr:ValueId>54a0ad3b-1054-4c56-a5c4-ea9df9d8b3fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterManager.Удержания" category="Manager">
+				<xr:TypeId>5ab8d326-a6bf-438d-a4e4-eacd35d373d0</xr:TypeId>
+				<xr:ValueId>dd9d523b-e98b-4884-974a-e7ff0fb628b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterSelection.Удержания" category="Selection">
+				<xr:TypeId>dd384691-b472-43d9-acb9-36e2eb5faa47</xr:TypeId>
+				<xr:ValueId>09bce193-967b-4552-b3f2-4de56bdeb753</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterList.Удержания" category="List">
+				<xr:TypeId>95ad9fc4-9457-4ad3-8b74-39459ea940f0</xr:TypeId>
+				<xr:ValueId>99aa79ef-c2f6-4535-9694-4e6a28243205</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordSet.Удержания" category="RecordSet">
+				<xr:TypeId>9a4a1ea6-9275-484b-a8b5-d51d6d895519</xr:TypeId>
+				<xr:ValueId>439f4a81-e6ff-41ed-9c95-0cb0a45b825a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CalculationRegisterRecordKey.Удержания" category="RecordKey">
+				<xr:TypeId>eccade66-2c1d-4609-90e0-fd97e8907cee</xr:TypeId>
+				<xr:ValueId>ba8482b8-74af-4317-88aa-ffc559cbaae8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="RecalculationsManager.Удержания" category="Recalcs">
+				<xr:TypeId>205f906a-796f-4550-8631-6eb43f9f85e9</xr:TypeId>
+				<xr:ValueId>15240637-f342-4674-80c2-d9bd4268679f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Удержания</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>03ccda6c-33a9-4c9e-9f21-27fc6dd07aaf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="4d9efb0a-fd2e-4f98-8f0a-a5698c18ca69">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Результат</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6b9775dd-5599-452f-a217-6feeeea98a3f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="f970975c-9319-492f-a577-8701a1d59da2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5040b3e6-4107-41b5-851a-8c7996925ec2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</CalculationRegister>
+</MetaDataObject>
